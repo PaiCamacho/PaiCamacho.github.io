@@ -21,3 +21,8 @@ why to stringify? To store and transmit the object
 object = JSON.parse(string)
 
 localStorage[key] = zip(string);
+string.indexOf('target') (-1 not found)
+str.substring(starting, endposition);
+s = "abc"
+s.substring(0,2):ab
+str.replace(/reg/ig,"dfd");
