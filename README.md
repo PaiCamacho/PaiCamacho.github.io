@@ -26,3 +26,24 @@ str.substring(starting, endposition);
 s = "abc"
 s.substring(0,2):ab
 str.replace(/reg/ig,"dfd");
+
+##Lecture Notes 3/30
+let ele = document.getElementBy('id);
+to delete:ele.parentNote.removeChild(ele);
+
+ele.style.color = 'red';
+ele.stlye.bakcground-color = 'white';
+
+let newele =
+document.createElement('p');
+newele.innerHTML = "any HTML code";
+document.body.appendChild(newele);
+ele.innerHTML = "sddf";
+<div attribute1 = value> inner html </div>
+let dv =
+document.createElement('div');
+dv.id = "meaningfulid";
+dv.style.cssText = "color:red;background-color:whote;font-size:17px";
+dv.innerHTML = "what ever";
+document.body.appendChild(dv);
+
