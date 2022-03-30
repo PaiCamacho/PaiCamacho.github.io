@@ -28,6 +28,7 @@ s.substring(0,2):ab
 str.replace(/reg/ig,"dfd");
 
 ##Lecture Notes 3/30
+
 let ele = document.getElementBy('id);
 to delete:ele.parentNote.removeChild(ele);
 
