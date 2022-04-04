@@ -48,3 +48,16 @@ dv.style.cssText = "color:red;background-color:whote;font-size:17px";
 dv.innerHTML = "what ever";
 document.body.appendChild(dv);
 
+##Lecture Notes 4/4
+
+window.onclick = function()
+window.addEventListener('click', handle);
+
+function handle(){
+
+
+}
+
+window.onclick = handle;
+long polling
+short polling
