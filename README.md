@@ -1,4 +1,5 @@
-##Lecture Notes 3/23
+**Lecture Notes 3/23
+
 functions can be called from child window (frames), parent window and any window opened on the same domain. 
 window.frames[0].frames[1].fname()
 
@@ -13,7 +14,7 @@ let p =
 Object = Java's Hashmap/Hashtable = associative = extension of Array
 Object = {id : "D100", lastName: "Smith", firstName: "John", info: x};
 
-##Lecture Notes 3/28
+**Lecture Notes 3/28
 
 JSON.stringify(object)
 why to stringify? To store and transmit the object
@@ -27,7 +28,7 @@ s = "abc"
 s.substring(0,2):ab
 str.replace(/reg/ig,"dfd");
 
-##Lecture Notes 3/30
+**Lecture Notes 3/30
 
 let ele = document.getElementBy('id);
 to delete:ele.parentNote.removeChild(ele);
@@ -48,7 +49,8 @@ dv.style.cssText = "color:red;background-color:whote;font-size:17px";
 dv.innerHTML = "what ever";
 document.body.appendChild(dv);
 
-##Lecture Notes 4/4
+
+**Lecture Notes 4/4
 
 window.onclick = function()
 window.addEventListener('click', handle);
@@ -61,3 +63,23 @@ function handle(){
 window.onclick = handle;
 long polling
 short polling
+
+**Lecture Notes 4/6
+
+(1) tomcat server
+    https://www.apache.org
+    
+(2) download v9.062 64-but window or tar.gz for Mac
+
+(3) unzip 
+
+(4) go inside bin 
+
+(5) macbook user find the location JDK on your PC
+
+(6) edit startup.sh (Mac) or startup.bat (Window) on beginning, add line 
+Mac: JAVA_HOME = /Library/Java...
+export $JAVA_HOME
+
+tomcat hosts applications, application server
+classic web server hosts static files
