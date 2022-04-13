@@ -32,7 +32,6 @@ str.replace(/reg/ig,"dfd");
 
 let ele = document.getElementBy('id);
 to delete:ele.parentNote.removeChild(ele);
-
 ele.style.color = 'red';
 ele.stlye.bakcground-color = 'white';
 
@@ -83,3 +82,47 @@ export $JAVA_HOME
 
 tomcat hosts applications, application server
 classic web server hosts static files
+
+
+
+
+
+**Lecture Notes 4/13
+
+
+
+regular expression: 
+usage: remove all digits
+str.replace(/[0-9]+/g, "";
+
+g: all occurrences
+i: case insensitive
+
+replace a pattern by a new string 
+str.replace(/pattern/gi,"new string");
+
+str.replace(/[A-Z]+/gi,"A");
++: 1 or more
+?: 0 or 1
+*: 0 or more 
+^: on being 
+second usage: logic Not
+task: remove all non-digits:
+cardnumber.replace(/[^0-9]/g,'');
+. dot means any single char
+.*:everything 
+
+(1) delete everything following a pattern
+
+str.replace(/pattern.*/,'');
+
+let username = string.replace(/@.*/,'');
+
+let y = username.replace(/[a-b|0-9|\-\_|\.]/g.'');
+valid username <==> y == ''
+
+let domainname = string.replace(/[^@]+@,'');
+
+domainname.replace(/\.io/,''); != domainname <==> domainname contains ".io" <==> domainname.includes(".io")
+
+domainname.replace(/\.com|.gov|.edu|.tv|.io|.mil|.buz|.org)
