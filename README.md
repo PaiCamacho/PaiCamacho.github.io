@@ -126,3 +126,30 @@ let domainname = string.replace(/[^@]+@,'');
 domainname.replace(/\.io/,''); != domainname <==> domainname contains ".io" <==> domainname.includes(".io")
 
 domainname.replace(/\.com|.gov|.edu|.tv|.io|.mil|.buz|.org)
+
+
+
+
+**Lecture Notes 4/20
+
+
+
+
+Configure Tomcat and Examine websocket
+
+(1) download tomcat from apache.org
+(2) Java JDK
+(3) find the path of Java JDK
+(4) go to tomcat/bin/
+    edit startup.sh (Mac)
+(5) Mac sh ./tartup.sh to launch tomcat
+(6) visit http://localhost:8080/examples/
+(7) http://10.33.18.4:8080/examples/
+
+(1) separated by comma "," 
+(2) within object, always prefix family name
+(3) using column ":" for inital value
+(4) equivalent to name-space in C++
+(5) JSON.stringify(Exchange);
+(6) a = JSON.parse(JSON.stringify(Exchange));
+(7) multi-dimensional objects
