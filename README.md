@@ -153,3 +153,29 @@ Configure Tomcat and Examine websocket
 (5) JSON.stringify(Exchange);
 (6) a = JSON.parse(JSON.stringify(Exchange));
 (7) multi-dimensional objects
+
+
+
+**Lecture Notes 4/25
+
+
+
+Debugger using Chrome
+(1) load js
+(2) using inspector to find function (handler) name
+(3) find the function body
+(4) set break points
+(5) reload page
+(6) step over and step into
+
+Try debugger: https://zhongyanlin.github.io/site/
+
+Learn how to create and modify displaying Shapes
+
+Quiz question 1: how many arguments in the constructor of Shape class in https://zhongyanlin.github.io/site/showcase ? 14
+
+Quiz question 2: Create a reverse method for String using charAt(i) to retrieve each character
+String.prototype.reverse
+
+Quiz question 3: Write a sum method for array that sum up elements if they are numeric and concatenation of toString() if not 
+
